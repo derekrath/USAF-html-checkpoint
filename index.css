@@ -1,16 +1,35 @@
-header {
+.nav-container {
     background-color: rgb(49, 49, 49);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     color: white;
     display:grid;
-    grid-template: 100% / 5fr 5fr 5fr 80fr 5fr;
+    display:flex;
+    grid-template: 1fr / 2fr 8fr;
+    align-items: center;
+    padding: 2%;
+    height: 2em;
 }
-.nav-container {
-
+.nav-link {
+    display:grid;
+    display:flex;
+    grid-column: 1;
+    padding: 2%;
 }
-.nav-button {
-
+.search-field {
+    display:grid;
+    display:flex;
+    grid-column: 2;
+}
+.input {
+    display:grid;
+    display:flex;
+}
+.search-button {
+    display:grid;
+    /* padding: 5%; */
+    /* font-size: 100%; */
+    border: 1px solid rgb(168, 104, 21)
 }
 body {
     background-color: white;
